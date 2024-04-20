@@ -1,0 +1,118 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: #242424;
+
+}
+section{
+  padding: 50px;
+}
+.container{
+    text-align: center;
+
+}
+.container img{
+    width: 100px;
+    height: auto;
+}
+
+.nav_bar {
+    background-color:rgb(147, 30, 30);
+    overflow: hidden;
+  }
+  
+  .nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .nav_bar li {
+    float: left;
+  }
+  
+  .nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+    .nav_bar li {
+      float: none;
+      display: inline-block;
+    }
+    .first_text {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      background-color: rgba(128, 128, 128, 0.186);
+
+    }
+    .Frist_P{
+      font-size: 25px;
+      padding: 20px ;
+      margin: 10px;
+    }
+    .Frist_P a{
+      text-decoration: underline;
+    }
+  .first_text img {
+      
+      width: 65%;
+      height: 500px;
+      object-fit:  over;
+      margin-right: 30px;
+
+    }
+    .first_text P{
+      font-size: 18px;
+      margin-top: -170px;
+
+    }
+    Span{
+      padding: 10px;
+
+    }
+   
+    .Second_P P {
+      background-attachment: fixed;
+      text-decoration: aliceblues;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+
+    }
+    .VP img{
+      width: 200px;
+      height: 300px;
+      
+    }
+   
+    
+    .Paragraph1 {
+      flex: 1;
+      margin-right: 40px;
+    }
+    
+  
+
+    .Second_P{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 10px;
+    }
+    
